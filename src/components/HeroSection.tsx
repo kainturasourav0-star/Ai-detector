@@ -1,4 +1,4 @@
-import { Shield, Eye, AudioLines, FileText, ChevronDown } from "lucide-react";
+import { Shield, Eye, AudioLines, FileText, ChevronDown, Image } from "lucide-react";
 import { motion } from "framer-motion";
 import heroBg from "@/assets/hero-bg.jpg";
 
@@ -50,6 +50,7 @@ const HeroSection = () => {
         >
           {[
             { icon: Eye, label: "Deepfake Video" },
+            { icon: Image, label: "AI Image" },
             { icon: AudioLines, label: "Voice Clone" },
             { icon: FileText, label: "Text Scam" },
           ].map(({ icon: Icon, label }) => (
